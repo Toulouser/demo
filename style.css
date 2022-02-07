@@ -1,0 +1,66 @@
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+h1{
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+img[src="images/lap.jpeg"]{
+    height:100vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 95vw;
+}
+
+.skills{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#scroll>div{
+    margin-top: 1rem;
+    width: 33%;
+    text-align: center;
+    /* padding: 1rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer>p{
+    font-size: 20px;
+}
